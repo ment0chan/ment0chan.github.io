@@ -7,7 +7,7 @@ function grand(min, max) {
 }
 
 function tral() {
-  $('body').html('<h1>IP logged successfully</h1><img src="http://image.bayimg.com/588680dbdd45921ea8c5ab38a25c78c906d34f81.jpg">');
+  $('body').html('<h1>IP logged successfully</h1><img src="http://i.imgur.com/cSNT4lP.jpg">');
 }
 
 var string = "";
