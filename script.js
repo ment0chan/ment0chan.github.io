@@ -6,10 +6,14 @@ function grand(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+function tral() {
+  $('body').html('<h1>Access denied: you are too stupid</h1>');
+}
+
 var string = "";
 
 for (var i = 0; i < 10; i++) {
-  string +='<img src="http://www.apache.org/icons/text.gif" alt="[TXT]"> <a href="#">';
+  string +='<img src="http://www.apache.org/icons/text.gif" alt="[TXT]"> <a href="#" onclick="tral()">';
   string += ph1[grand(0,5)] + "_"+ ph2[grand(0,5)] +"_" +ph3[grand(0,5)] +ph4[grand(0,5)];
   string +='</a> 2013-10-04 15:47 '+grand(1,30)+'MB \n';
 }
